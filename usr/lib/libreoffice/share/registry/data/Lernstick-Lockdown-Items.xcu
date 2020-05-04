@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<oor:items xmlns:oor="http://openoffice.org/2001/registry"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!--
+        All items are still editable during runtime. This looks like a bug similar to
+        https://bugs.documentfoundation.org/show_bug.cgi?id=107671
+    -->
+
+    <!-- Tools -> AutoCorrect -> AutoCorrect Options... -> Options -> Capitalize first letter of every sentence [T]: AutoCorrect while typing -->
+    <item oor:path="/org.openoffice.Office.Common/AutoCorrect">
+        <prop oor:name="CapitalAtStartSentence" oor:op="fuse" oor:finalized="true"><value>false</value></prop>
+    </item>
+
+    <!-- Tools -> AutoCorrect -> AutoCorrect Options... -> Options -> Capitalize first letter of every sentence [M]: Replace while modifying existing text -->
+    <item oor:path="/org.openoffice.Office.Writer/AutoFunction/Format/Option">
+        <prop oor:name="TwoCapitalsAtStart" oor:op="fuse" oor:finalized="true"><value>false</value></prop>
+    </item>
+
+    <!-- Tools -> AutoCorrect -> AutoCorrect Options... -> Options -> Correct TWo INitial CApitals [T]: AutoCorrect while typing -->
+    <item oor:path="/org.openoffice.Office.Common/AutoCorrect">
+        <prop oor:name="TwoCapitalsAtStart" oor:op="fuse" oor:finalized="true"><value>false</value></prop>
+    </item>
+
+    <!-- Tools -> AutoCorrect -> AutoCorrect Options... -> Options -> Correct TWo INitial CApitals [M]: Replace while modifying existing text -->
+    <item oor:path="/org.openoffice.Office.Writer/AutoFunction/Format/Option">
+        <prop oor:name="CapitalAtStartSentence" oor:op="fuse" oor:finalized="true"><value>false</value></prop>
+    </item>
+
+</oor:items>

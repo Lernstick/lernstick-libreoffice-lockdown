@@ -1,0 +1,12 @@
+Source: lernstick-libreoffice-lockdown
+Section: misc
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-libreoffice-lockdown
+Architecture: all
+Depends: libreoffice-common
+Description: A collection of config files to lockdown LibreOffice for exams
+ This is a collection of config files to lockdown LibreOffice for exams.

@@ -1,0 +1,5 @@
+debian/.debhelper/
+debian/files
+debian/lernstick-libreoffice-lockdown.debhelper.log
+debian/lernstick-libreoffice-lockdown.substvars
+debian/lernstick-libreoffice-lockdown/
